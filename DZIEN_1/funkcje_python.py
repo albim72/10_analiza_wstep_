@@ -23,6 +23,7 @@ def przyjmij_funkcje(f,x):
 def podwoj(x):
     return x*2
 
+
 def podniesienie(y):
     return y + 22
 
@@ -31,3 +32,9 @@ print(wynik)
 
 nextwynik = przyjmij_funkcje(podniesienie,57)
 print(nextwynik)
+
+#przykład 2
+#funkcje anonimowe (lambda)
+print((lambda e:e+5)(6))
+pd = lambda x:x*2
+print(pd(19))
