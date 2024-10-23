@@ -38,3 +38,17 @@ print(nextwynik)
 print((lambda e:e+5)(6))
 pd = lambda x:x*2
 print(pd(19))
+
+#przykład 3 - gotowa/standardowa funkcja wyższego rzędu
+n = float(input("podaj mnożnik wartości: "))
+liczby = [64,2,7,93,25,9]
+krotne_liczby = list(map(lambda x:x*n,liczby))
+print(krotne_liczby)
+
+parzyste = list(filter(lambda x:x%2==0, liczby))
+print(parzyste)
+
+from functools import reduce
+
+suma = reduce(lambda x,y:x+y,liczby)
+print(suma)
