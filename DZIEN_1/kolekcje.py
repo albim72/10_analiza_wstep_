@@ -80,3 +80,28 @@ print(drzewa)
 drzewa.add("brzoza")
 print(drzewa)
 print(type(drzewa))
+
+#przykład 4: słownik
+
+pojazd = {
+    "marka":"Ford",
+    "model":"Mustang",
+    "rok":2019,
+    "kolor":"czerwony",
+    "poj":2.8
+}
+
+print(pojazd)
+print(type(pojazd))
+
+print(pojazd["marka"])
+pojazd["poj"] = 3.0
+
+print(pojazd)
+
+pojazd["przebieg"] = 112600
+print(pojazd)
+
+print(pojazd.keys())
+print(pojazd.values())
+print(pojazd.items())
