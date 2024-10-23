@@ -66,3 +66,17 @@ print(liczby)
 # animal.sort()
 # szybkie komentowanie/ odkomentowanie bloku tekstu: CTRL + /
 # szybka duplikacja bloku tekstu: CTRL + D
+
+#przykład 3: zbiory
+
+drzewa = {"dąb","brzoza","jesion","klon","sosna"}
+print(drzewa)
+print(drzewa)
+print(drzewa)
+
+drzewa.add("cyprys")
+print(drzewa)
+
+drzewa.add("brzoza")
+print(drzewa)
+print(type(drzewa))
