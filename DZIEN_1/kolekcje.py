@@ -48,3 +48,21 @@ print(info[9:13])
 infolist = list(info)
 infolist.append('t')
 print(infolist)
+
+#przykład 2: krotka
+
+animal = ("pies","kot","papuga","królik","pies","leniwiec","pies","słoń")
+print(animal)
+print(type(animal))
+
+print(animal.index("kot"))
+print(animal.count("pies"))
+print(animal[2:5])
+
+liczby.sort(reverse=True)
+print(liczby)
+
+
+# animal.sort()
+# szybkie komentowanie/ odkomentowanie bloku tekstu: CTRL + /
+# szybka duplikacja bloku tekstu: CTRL + D
